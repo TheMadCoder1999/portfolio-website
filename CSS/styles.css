@@ -179,7 +179,7 @@ body {
 }
 
 .grid_item {
-  background-color: var(--grid-bg-color0);
+  background-color: var(--grid-bg-color);
   transition: transform 0.5s
 }
 
@@ -200,6 +200,7 @@ body {
   grid-row-start: 1;
   grid-row-end: 4;
 }
+
 /* short form
 .grid__item:last-child {
   grid-column: 3 / 3;
