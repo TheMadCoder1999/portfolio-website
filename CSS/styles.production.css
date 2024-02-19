@@ -180,7 +180,7 @@ display: grid;
 }
 
 .grid_item {
-background-color: undefined;
+background-color: skyblue;
 -webkit-transition: -webkit-transform 0.5s;
 transition: -webkit-transform 0.5s;
 -o-transition: transform 0.5s;
@@ -205,14 +205,17 @@ grid-gap: 20px;
 
 .grid_item:last-child {
 -ms-grid-column: 3;
+  grid-column: 3;
     grid-column-start: 3;
 -ms-grid-column-span: 0;
 grid-column-end: 3;
 -ms-grid-row: 1;
+  grid-row: 1;
     grid-row-start: 1;
 -ms-grid-row-span: 3;
 grid-row-end: 4;
 }
+
 /* short form
 .grid__item:last-child {
 grid-column: 3 / 3;
