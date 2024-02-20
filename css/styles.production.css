@@ -81,7 +81,7 @@ button:hover {
 }
 
  button:focus {
-  border: undefined;
+  border: 2px solid red;
  }
 
  button:hover, button:focus {

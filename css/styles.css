@@ -88,7 +88,7 @@ body {
 }
 
    button:focus {
-    border: 2px solid var(--btn-focus-colors);
+    border: 2px solid var(--btn-focus-color);
    }
 
    button:hover, button:focus {
