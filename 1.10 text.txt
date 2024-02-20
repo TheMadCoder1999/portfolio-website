@@ -1,0 +1,4 @@
+I used HTMLHint and Stylelint for my code and did not change any of the settings.
+
+My main issue was that my style sheet would not work for some devices. I had to change the cassing of the CSS
+	folder to css because of case sensativity.
